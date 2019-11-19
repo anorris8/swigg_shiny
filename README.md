@@ -4,12 +4,16 @@ Shiny app for visualizing genome graphs from SWIGG
 # In development, current priorities:
 
   1. Interactive plot
-    - Goal: view attributes of a node or edge when you hover over it in the plot
-    - Plan: since plotly currently doesn't work with ggraph, try converting code from ggraph to igraph
+  
+    - __Goal:__ view attributes of a node or edge when you hover over it in the plot
+    
+    - __Plan:__ since plotly currently doesn't work with ggraph, try converting code from ggraph to igraph
   
   2. Add UI-responsive table
-    - Goal: Get table of attributes for selected nodes and edges
-    - Plan: 
+  
+    - __Goal:__ Get table of attributes for selected nodes and edges
+    
+    - __Plan:__ 
       1. Add tab with table
       2. Add filtering for table
       3. Make table automatically filter based on selections (nodes, edges) in plot
@@ -17,8 +21,10 @@ Shiny app for visualizing genome graphs from SWIGG
       5. Add download button for table 
 
   3. Deploy on shinyapps.io (rather than rstudio.cloud or locally via GitHub code)
-    - Goal: user can upload data (swigg-generated xml and swigg-annotation-generated (or custom made) annotation/attributes table)
-    - Plan:
+  
+    - __Goal:__ user can upload data (swigg-generated xml and swigg-annotation-generated (or custom made) annotation/attributes table)
+    
+    - __Plan:__
       1. Add upload SWIGG xml button
       2. Add upload SWIGG annotation/attributes tsv button
       3. Change inputs to "selectizeOption" to generalize to work with user/custom tsv files
